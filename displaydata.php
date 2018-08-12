@@ -10,6 +10,9 @@ session_start();
 	<title>Information Display</title>
 </head>
 <body>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
 	<div class="jumbotron">
 <?php
 //$student_name = $_POST["student_name"];
