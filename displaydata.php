@@ -11,7 +11,8 @@ session_start();
 </head>
 <body>
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<div class="jumbotron">
 <?php
@@ -37,43 +38,5 @@ session_start();
 			}
 ?>
 </div>
-<style>
-	.jumbotron{
-		 
-    background: linear-gradient(to bottom, #0066ff 0%, #00ccff 100%);
-    background-size: cover;
-    padding:10px 0 10px 0;
-}
-body {
-  font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
-  color: white;
-}
-h1, h2 {
-  margin-bottom: .25em;
-  font-weight: normal;
-  text-align: center;
-}
-h2 {
-  margin: .25em 0 2em;
-  color: #aaa;
-}
-form {
-  width: 7em;
-  margin: 0 auto;
-}
-.txtcenter {
-  margin-top: 4em;
-  font-size: .9em;
-  text-align: center;
-  color: #aaa;
-}
-.copy {
- margin-top: 2em; 
-}
-.copy a {
- text-decoration: none;
- color: #4778d9;
-}
-</style>
 </body>
 </html>
